@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title>Gallery</title>
+	</head>
+	<body>
+		<div id="contactusbody" class="div">
+			<div id="profile" class="div"></div>
+			<div id="menu" class="div">
+				<div id="Home" class="menuitems"><a href="index.html">Home</a></div>
+				<div id="About Us" class="menuitems"><a href="aboutus.html">About Us</a></div>
+				<div id="Gallery" class="menuitems"><a href="gallery.html">Gallery</a></div>
+				<div id="Contact Us" class="menuitems"><a href="contactus.html">Contact Us</a></div>
+			</div>
+
+			<div id="formdiv">
+				<form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+					<table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+						<tr>
+							<td>
+								<label for="Name">Name:</label>
+							</td>
+							<td>
+								<input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+							</td> 
+						</tr> 
+						<tr> 
+							<td>
+								<label for="PhoneNumber">Phone number:</label>
+							</td> 
+							<td>
+								<input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+							</td> 
+						</tr> 
+						<tr> 
+							<td>
+								<label for="FromEmailAddress">Email address:</label>
+							</td> 
+							<td>
+								<input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+							</td> 
+						</tr> 
+						<tr> 
+							<td>
+								<label for="Comments">Comments:</label>
+							</td> 
+							<td>
+								<textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+							</td> 
+						</tr> 
+						<tr> 
+							<td>
+							</td> 
+							<td>
+								<input name="skip_Submit" type="submit" value="Submit" />
+							</td> 
+						</tr>
+					</table>
+				</form>
+<!-- 				<script>
+			        //let elm = document.getElementById("formdiv");
+			 
+			        function FORM_DIV() {
+			            //let x = 88;
+			            //let y = 200;
+			            let el = document.getElementById('formdiv');
+			            //el.style.position = "absolute";
+			            //el.style.left = x + 'px';
+			            //el.style.top = y + 'px';
+			            //elm.innerHTML ="Position of element is changed.";
+			             
+			        }
+			           FORM_DIV();
+			    </script> -->
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4130.457334545899!2d32.52047096514785!3d0.31565367902013547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da34559c08b97%3A0x8bc0d4b0da9d4b13!2sShachah%20Christian%20Academy!5e0!3m2!1sen!2sug!4v1704712149829!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</body>
+</html>

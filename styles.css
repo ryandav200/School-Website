@@ -1,0 +1,352 @@
+#menu{
+	margin-top: 50px;
+	background-color:#4C0201;
+	width:90%;
+	height:100px;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-evenly;
+	border-radius: 20px;
+}
+
+body{
+	display:flex;
+	flex-direction:column ;
+}
+
+#body{
+	background-color: #f36800;
+	width:90%;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contactusbody{
+	background-color: #f36800;
+	width:90%;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20rem;
+}
+
+#aboutusbody{
+	background-color: #f36800a6;
+	width:90%;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#indexbody{
+	background-color:white;
+	width:90%;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#mainpic{
+	margin-top:20px;
+	background-color: gray;
+	width:50rem;
+	height:600px;
+	background-image:url('images/logo.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+#services{
+	margin-top:20px;
+	background-color:#4c0201;
+	width:90%;
+	height:300px;
+	display:flex;
+	justify-content: space-evenly;
+
+}
+
+.menuitems{
+	width:100px;
+	background-color:#F36800;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	border-radius: 30px;
+	text-decoration: none;
+} 
+.servicelabels{
+	width:100px;
+	background-color:#f36800e8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	border-radius: 30px;
+	text-decoration: none;
+	margin-top: 6px;
+	color:white;
+} 
+.serviceslabel{
+	width:100px;
+	background-color:#4C0201;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	border-radius: 12px;
+	text-decoration: none;
+	margin-top: 6px;
+	color:white;
+} 
+.aboutuslabels{
+	width:200px;
+	background-color:#4C0201;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.5px;
+	padding-right:2.5px;
+	text-align: center;
+	border-radius: 12px;
+	text-decoration: none;
+	margin-top: 6px;
+	color:white;
+} 
+.menuitems a{
+	text-decoration: none;
+	color:white;
+}
+.serviceslist{
+	background-color:#4c0201;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:33%;
+	text-align:center ;
+}
+
+#abouttext{
+	margin-top:-20px;
+	background-color: #f79d59;
+	width:98%;
+	height:220px;
+	text-align: center;
+	padding-top:9px;
+	color:#4C0201;
+}
+
+#misson{
+	margin-top:20px;
+	background-color: #80808000;
+	width:98%;
+	height:600px;
+	display:flex;
+	margin-bottom: 10px;
+}
+
+#missionpic{
+	margin-top:20px;
+	background-color: #cb540600;
+	width:50%;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	background-image:url('images/mission.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+#missiontext{
+	margin-top:20px;
+	background-color: #a9a9a900;
+	width:50%;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+#vision{
+	margin-top:20px;
+	background-color: #80808000;
+	width:98%;
+	height:600px;
+	display:flex;
+	margin-bottom: 10px;
+}
+
+#visiontext{
+	margin-top:20px;
+	background-color: #a9a9a900;
+	width:50%;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+#visionpic{
+	margin-top:20px;
+	background-color: #a9a9a900;
+	width:50%;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-image:url('images/vision.jpeg');
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+#teachers{
+	margin-top:20px;
+	background-color: #4c0201;
+	width:98%;
+	height:300px;
+	display:flex;
+	margin-bottom: 10px;
+}
+
+.teacherspics{
+	margin-top:20px;
+	background-color: darkgray;
+	width:50%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-left: 20px;
+}
+#images{
+	margin-top:20px;
+	background-color: white;
+	width:98%;
+	text-align: center;
+}
+#Swimming{
+	background-image:url('images/11.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Sports{
+	background-image:url('images/Sports.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Education{
+	background-image:url('images/Education.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#teacher1{
+	background-image:url('images/Caleb.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
+#teacher2{
+	background-image:url('images/Pius.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+}
+#teacher3{
+	background-image:url('images/Dorothy.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:712px){
+#mainpic{
+	margin-top:20px;
+	background-color: gray;
+	width:20rem;
+	height:300px;
+	background-image:url('images/logo.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+		}
+
+.menuitems{
+	width:70px;
+	background-color:darkgrey;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	border-radius: 30px;
+	}
+
+#abouttext{
+	margin-top:20px;
+	background-color: gray;
+	width:98%;
+	height:50%;
+	text-align: center;
+
+	padding-top: 1rem;
+	}
+/*#services{
+	margin-top:20px;
+	background-color:#4C0201;
+	width:90%;
+	height:100px;
+	display:flex;
+	justify-content: space-evenly;
+
+}*/
+#teachers{
+	margin-top:20px;
+	background-color: gray;
+	width:98%;
+	height:100px;
+	display:flex;
+	margin-bottom: 10px;
+ }
+
+#vision{
+	margin-top:20px;
+	background-color: gray;
+	width:98%;
+	height:160px;
+	display:flex;
+	margin-bottom: 10px;
+	}
+
+#misson{
+	margin-top:20px;
+	background-color: gray;
+	width:98%;
+	height:160px;
+	display:flex;
+	margin-bottom: 10px;
+}
+#formdiv{
+margin-left:-17.5%;
+}
+
+}
+
+form{
+/*	position: fixed;*/
+    background:#F36800;
+    color: #ffffff;
+    padding: 30px;
+    top:100;
+    left: 10;
+}
